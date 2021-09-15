@@ -1,0 +1,13 @@
+(lang dune 2.8)
+(version 1.0)
+(maintainers "Haochen Xie <haochenx@acm.org>")
+(license "AGPL-3.0-only")
+(generate_opam_files true)
+(source (github haochenx/hxutils))
+(package
+ (name cli_amazon_jp_url_cleaner)
+ (synopsis "command line tool to clean Amazon.co.jp URLs")
+ ; (dev-repo "https://github.com/haochenx/hxutils/")
+ (depends
+   (uri (>= 4.0.0)))
+)
