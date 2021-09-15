@@ -9,7 +9,7 @@ let output =
   else raw
 
 let () =
-  let orig = slurp_stdin() in
+  let orig = read_line() in
   Uri.of_string orig
   |> (fun u ->
     let comps =

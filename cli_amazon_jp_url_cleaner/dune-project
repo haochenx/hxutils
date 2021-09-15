@@ -1,5 +1,5 @@
 (lang dune 2.8)
-(version 1.0)
+(version 1.1)
 (maintainers "Haochen Xie <haochenx@acm.org>")
 (license "AGPL-3.0-only")
 (generate_opam_files true)
