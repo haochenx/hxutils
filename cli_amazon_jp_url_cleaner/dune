@@ -5,5 +5,3 @@
  (promote (until-clean))
  (flags (:standard
           -open Kxclib)))
-
-(vendored_dirs vendors)
