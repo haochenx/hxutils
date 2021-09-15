@@ -1,0 +1,9 @@
+(executable
+ (name amzjurl_cleaner_main)
+ (public_name amzjurlc)
+ (libraries uri kxclib)
+ (promote (until-clean))
+ (flags (:standard
+          -open Kxclib)))
+
+(vendored_dirs vendors)

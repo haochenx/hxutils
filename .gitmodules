@@ -1,0 +1,4 @@
+[submodule "cli_amazon_jp_url_cleaner/vendors/kxclib"]
+	path = cli_amazon_jp_url_cleaner/vendors/kxclib
+	url = https://github.com/kxcteam/kxclib-ocaml.git
+	branch = master
